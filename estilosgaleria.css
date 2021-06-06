@@ -1,0 +1,140 @@
+html,
+body,
+section {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+#dron-1 {
+    background: rgb(48, 58, 112) url("./imagenes\ galeria/1.jpg") no-repeat center;
+}
+
+#dron-2 {
+    background: rgb(53, 64, 122) url("./imagenes\ galeria/2.jpg") no-repeat center;
+}
+
+#dron-3 {
+    background: rgb(76, 91, 173) url("./imagenes\ galeria/3.jpg") no-repeat center;
+}
+
+#dron-4 {
+    background: rgb(82, 98, 187) url("./imagenes\ galeria/4.jpg") no-repeat center;
+}
+
+#dron-5 {
+    background: rgb(126, 142, 236) url("./imagenes\ galeria/5.jpg") no-repeat center;
+}
+
+#dron-6 {
+    background: rgb(120, 136, 224) url("./imagenes\ galeria/6.jpg") no-repeat center;
+}
+
+aside {
+    position: fixed;
+    left: 5px;
+    top: 0px;
+    bottom:0px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+aside nav ul li {
+    margin: 10px 0px;
+}
+
+aside img {
+    width: 50%;
+}
+
+footer {
+    font-family: 'Dosis', sans-serif;
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    display: flex;
+    justify-content: center;
+    }
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer ul li {
+    margin: 0px 5px;
+}
+
+footer ul a {
+    color: silver;
+    text-decoration: none;
+}
+
+footer ul :hover {
+    background-color: black;
+}
+
+@media screen and (max-width: 960px) {
+
+    aside {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 72px;
+        background-color: silver;
+        border-bottom: 1px solid black;
+    }
+
+    aside nav ul {
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    aside nav {
+        width: 100%;
+    }
+
+    aside nav ul li {
+        margin: 10px 40px;
+        width: 20%;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #li1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+
+    section ul {
+        display: none;
+    }
+}

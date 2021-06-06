@@ -1,0 +1,147 @@
+img {
+    max-width: 100%;
+}
+
+#info div img {
+    height: 200px;
+    border: 2px solid black;
+}
+
+#info div img:hover {
+    border: 3px solid silver;
+}
+
+body {
+    background-color: rgb(92, 110, 209);
+    margin: 0px;
+    padding-top: 72px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 72px;
+    background-color: silver;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2em;
+}
+
+.redes ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.redes div {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#yt {
+    padding: 10px 10px 10px;
+}
+
+#ig {
+    padding: 10px 10px 10px;
+}
+
+#tw {
+    padding: 10px 10px 10px;
+}
+
+#in {
+    padding: 10px 10px 10px;
+}
+
+section {
+    margin: 2.5%;
+    margin-bottom: 0px;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#info div {
+    width: 30%;
+}
+
+#info img {
+    height: 164px;
+    width: 100%;
+}
+
+div li {
+    list-style-type: none;
+    text-align: start;
+}
+
+div li a {
+    text-decoration: none;
+    color: silver;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 960px) {
+
+   #info div img {
+    display: none;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+    #info div {
+        width: 100%;
+    }
+
+    #info p {
+        text-indent: 10px;
+    }
+
+    #info nav {
+        font-size: 1.5em;
+    }
+
+    .redes div {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .redes ul div {
+        margin: 0px;
+        padding: 5px 10px;
+        width: 100%;
+    }
+
+    .redes img {
+        position: relative;
+    }
+}
